@@ -1,0 +1,86 @@
+.wrapper a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.bannerText a:focus {
+  color: #ffffff;
+}
+.bannerText .name {
+  color: #ef7674;
+}
+.bannerText h3 {
+  font-size: 40px;
+  line-height: 60px;
+  padding-bottom: 8px;
+}
+.bannerText .mbnt:hover {
+  background: #ad5150;
+}
+
+@media (min-width: 768px) {
+  .aboutme .content {
+    align-items: center;
+    display: flex;
+  }
+}
+.aboutme .content img {
+  width: 100%;
+}
+.aboutme .content .img-border {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .aboutme .content .infor {
+    text-align: center;
+  }
+  .aboutme .content .infor .heading {
+    text-align: center;
+  }
+}
+.aboutme .content .label-text {
+  color: #ef7674;
+  font-weight: bold;
+}
+.aboutme .content .name {
+  font-weight: bold;
+}
+.aboutme .content .subHeading {
+  line-height: 30px;
+  padding: 0;
+  font-size: 16px;
+}
+.aboutme .content p {
+  padding: 0;
+}
+.aboutme .content .bntDownload {
+  margin-top: 15px;
+}
+
+.technical {
+  text-align: center;
+}
+.technical .other p {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.technical .other ul {
+  margin: 0;
+  padding: 0;
+}
+.technical .other ul li {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  display: inline-block;
+  border: 1px solid #ef7674;
+  color: #5b4c5c;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=custom.css.map */

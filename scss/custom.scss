@@ -89,6 +89,9 @@
 	     	color: #5b4c5c;
 	     	margin: 0 5px;
 	     	font-weight: bold;
+	     	@media (max-width: 620px) {
+	     		margin-bottom: 10px;
+	     	}
 			}
 		}
 	}

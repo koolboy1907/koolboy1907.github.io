@@ -82,6 +82,11 @@
   margin: 0 5px;
   font-weight: bold;
 }
+@media (max-width: 620px) {
+  .technical .other ul li {
+    margin-bottom: 10px;
+  }
+}
 
 .particles-home {
   width: 100%;
